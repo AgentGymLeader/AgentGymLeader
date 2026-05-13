@@ -26,7 +26,7 @@ My focus is **AI management**, not prompt engineering. The difference:
 ## 🧠 Background
 
 - 🎓 Tokyo Institute of Technology — Robotics (graduated top of class)
-- 🦅 Human Powered Aircraft Competition 2001 — 1st place
+- 🦅 Human Powered Aircraft Competition — 1st place as aircraft architect
 - Non-engineer background running an AI-native operation: the gap between "can build" and "can manage" is where I live
 
 ---
