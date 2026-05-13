@@ -55,5 +55,3 @@ I do not publish a public email address on GitHub.
 ---
 
 ## 📊 Activity
-
-![AgentGymLeader's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AgentGymLeader&show_icons=true&theme=default&hide_border=true&count_private=true)
