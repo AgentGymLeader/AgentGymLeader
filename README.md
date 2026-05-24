@@ -23,6 +23,14 @@ My focus is **AI management**, not prompt engineering. The difference:
 
 ---
 
+## 🤝 OSS Contributions (Active)
+
+- **OpenTelemetry GenAI semconv** — Contributing to [`agent.threat.detection.*` design](https://github.com/open-telemetry/semantic-conventions-genai/issues/132): proposed opaque `correlation_id` pattern for joining runtime threat signals with producer-side evidence, now part of the current spec direction
+- **Microsoft Agent Governance Toolkit (AGT)** — Telemetry exporter / Prometheus integration design discussion ([#2446](https://github.com/microsoft/agent-governance-toolkit/issues/2446))
+- **[`otel-agent-evidence-sample`](https://github.com/AgentGymLeader/otel-agent-evidence-sample)** — Reference implementation for the `correlation_id` pattern (MIT)
+
+---
+
 ## 🧠 Background
 
 - 🎓 Tokyo Institute of Technology — Robotics (graduated top of class)
