@@ -23,10 +23,9 @@ My focus is **AI management**, not prompt engineering. The difference:
 
 ---
 
-## 🤝 OSS Contributions (Active)
+## 🤝 OSS Contributions
 
-- **OpenTelemetry GenAI semconv** — Contributing to [`agent.threat.detection.*` design](https://github.com/open-telemetry/semantic-conventions-genai/issues/132): proposed opaque `correlation_id` pattern for joining runtime threat signals with producer-side evidence, now part of the current spec direction
-- **Microsoft Agent Governance Toolkit (AGT)** — Telemetry exporter / Prometheus integration design discussion ([#2446](https://github.com/microsoft/agent-governance-toolkit/issues/2446))
+- **OpenTelemetry GenAI semconv** — Contributing to [`gen_ai.threat.detection.*` design](https://github.com/open-telemetry/semantic-conventions-genai/issues/132): proposed opaque `correlation_id` pattern for joining runtime threat signals with producer-side evidence, now part of the current spec direction
 - **[`otel-agent-evidence-sample`](https://github.com/AgentGymLeader/otel-agent-evidence-sample)** — Reference implementation for the `correlation_id` pattern (MIT)
 
 ---
@@ -35,7 +34,7 @@ My focus is **AI management**, not prompt engineering. The difference:
 
 - 🎓 Tokyo Institute of Technology — Robotics (graduated top of class)
 - 🦅 Human Powered Aircraft Competition — 1st place as aircraft architect
-- Robotics background (not CS) running an AI-native operation: the gap between "can build" and "can manage" is where I live
+- Robotics background (not CS) — running a fully AI-native org. The interesting problem isn't "can build vs. can deploy"; it's "can build vs. can govern."
 
 ---
 
@@ -59,7 +58,3 @@ Interested in **agent governance**, **human-AI decision systems**, or **AI org d
 Open an issue in this repository to start a conversation.
 
 I do not publish a public email address on GitHub.
-
----
-
-## 📊 Activity
