@@ -1,45 +1,49 @@
 # Hey, I'm FugoP 👋
 
-> Building the OS for AI organizations — where agents learn to decide, delegate, and evolve under human governance.
+> Building **PENSO** — corporate governance, implemented for AI organizations.
+> [governances.ai](https://governances.ai)
 
----
+I design and operate **AI agent organizations**: multi-agent systems where Claude, Codex, and Gemini work as a governed team — not as individual tools.
 
-## 🏋️ What is AgentGymLeader?
-
-I design and operate **AI agent organizations** — multi-agent systems where Claude, Codex, and Gemini work as a coordinated team, not just individual tools.
-
-My focus is **AI management**, not prompt engineering. The difference:
+My focus is **AI management**, not prompt engineering:
 - Prompt engineering → how to talk to an AI
-- AI management → how to build systems where AI judgment can be trusted, audited, and gradually delegated
+- AI management → how to build systems where AI judgment can be trusted, reviewed, and gradually delegated under human oversight
 
 ---
 
-## 🔭 Current Focus
+## 🔭 What I'm building
 
-- **PENSO** — an OS for AI organizations: agents that learn from decisions, build delegation chains, and remain governable as they scale
-- **Agent runtime governance** — permission models, execution evidence, and audit trails for agentic systems
-- **Human-reviewed AI** — keeping humans meaningfully in the loop without killing the speed advantage
+**PENSO** — an operating system for AI organizations, built on one idea: *governance by structure*. Oversight, separation of duties, and accountability are implemented as architectural constraints the system cannot bypass — not as policy PDFs or dashboards bolted on afterwards.
+
+- **Agent runtime governance** — permission models, execution boundaries, and decision records for agentic systems
+- **Separation of execution and audit** — the component that reviews an action is independent of the one that performs it
+- **Human-reviewed AI** — keeping humans meaningfully in the loop without giving up the speed
 - **Multi-agent orchestration** — routing, role separation, and quality gates across Claude / Codex / Gemini
 
+More on the thesis — *Separation of Powers as Governance Architecture* — at [governances.ai](https://governances.ai).
+
 ---
 
-## 🤝 OSS Contributions
+## 🤝 Open standards & OSS
 
-- **OpenTelemetry GenAI semconv** — Design input on `gen_ai.threat.detection.*` attributes and the opaque `correlation_id` pattern for linking agent runtime threat signals to producer-side evidence
-- **Microsoft Agent Governance Toolkit (AGT)** — Telemetry and observability design discussions; fork maintained at [`AgentGymLeader/agent-governance-toolkit`](https://github.com/AgentGymLeader/agent-governance-toolkit)
-- **[`otel-agent-evidence-sample`](https://github.com/AgentGymLeader/otel-agent-evidence-sample)** — Reference implementation for the `correlation_id` evidence-linking pattern (MIT)
+I contribute to the semantic-convention work that defines how agent runtimes are described — kept implementation-neutral, with producer-owned context left out of scope:
+
+- **OpenTelemetry GenAI semconv** — design input on agent telemetry: decision / outcome attributes and opaque, payload-free governance references for agent decision points; an *acting-vs-target* agent framing for multi-agent traces; runtime threat-signal correlation
+- **Agent execution-record proposals** — review input on keeping the normative contract in the spec itself, rather than in any single reference implementation, so independent implementations interoperate on equal footing
+- **Microsoft Agent Governance Toolkit (AGT)** — telemetry and observability design discussions
+- **[`otel-agent-evidence-sample`](https://github.com/AgentGymLeader/otel-agent-evidence-sample)** — a small reference for the opaque `correlation_id` evidence-linking pattern (MIT)
 
 ---
 
 ## 🧠 Background
 
 - 🎓 Tokyo Institute of Technology — Robotics (graduated top of class)
-- 🦅 Human Powered Aircraft Competition — 1st place as aircraft architect
-- Robotics background (not CS) — running a fully AI-native org. The interesting problem isn't "can build vs. can deploy"; it's "can build vs. can govern."
+- 🦅 Human-Powered Aircraft Competition — 1st place, as aircraft architect
+- Robotics background, not CS — running a fully AI-native org. The interesting problem isn't *can-build vs. can-deploy*; it's **can-build vs. can-govern**.
 
 ---
 
-## 🛠️ Tools & Stack
+## 🛠️ Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D4A27F?style=flat&logo=anthropic&logoColor=white)
@@ -54,8 +58,6 @@ My focus is **AI management**, not prompt engineering. The difference:
 
 ## 💬 Collaboration
 
-Interested in **agent governance**, **human-AI decision systems**, or **AI org design**?
+Interested in **agent governance**, **human-AI decision systems**, or **AI org design**? Open an issue in this repository to start a conversation.
 
-Open an issue in this repository to start a conversation.
-
-I do not publish a public email address on GitHub.
+I don't publish a public email address on GitHub.
