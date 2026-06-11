@@ -24,14 +24,17 @@ More on the thesis — *Separation of Powers as Governance Architecture* — at 
 
 ---
 
-## 🤝 Open standards & OSS
+## 🤝 Open source & standards
 
-I contribute to the semantic-convention work that defines how agent runtimes are described — kept implementation-neutral, with producer-owned context left out of scope:
+Shipping merged code into AI-infra OSS, and contributing to the semantic-convention work that defines how agent runtimes are described — kept implementation-neutral, with producer-owned context left out of scope:
 
+- **[litellm](https://github.com/BerriAI/litellm)** (LLM gateway, ~50k★) — [merged PRs »](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AAgentGymLeader+is%3Amerged)
 - **OpenTelemetry GenAI semconv** — design input on agent telemetry: decision / outcome attributes and opaque, payload-free governance references for agent decision points; an *acting-vs-target* agent framing for multi-agent traces; runtime threat-signal correlation
 - **Agent execution-record proposals** — review input on keeping the normative contract in the spec itself, rather than in any single reference implementation, so independent implementations interoperate on equal footing
 - **Microsoft Agent Governance Toolkit (AGT)** — telemetry and observability design discussions
 - **[`otel-agent-evidence-sample`](https://github.com/AgentGymLeader/otel-agent-evidence-sample)** — a small reference for the opaque `correlation_id` evidence-linking pattern (MIT)
+
+→ *[All merged contributions, always current »](https://github.com/search?q=is%3Apr+author%3AAgentGymLeader+is%3Amerged&type=pullrequests)*
 
 ---
 
