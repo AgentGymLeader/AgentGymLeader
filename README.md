@@ -38,6 +38,24 @@ Shipping merged code into AI-infra OSS, and contributing to the semantic-convent
 
 ---
 
+## 🔒 Security hardening (selected)
+
+Memory-safety, injection, and trust-boundary fixes proposed into ML / data-infra OSS —
+AI-assisted discovery, human-verified before submission. Status shown honestly; most are
+under maintainer review.
+
+- **[mongodb/mongo-python-driver#2872](https://github.com/mongodb/mongo-python-driver/pull/2872)** — bounds check for an out-of-range embedded-document length in the BSON C-extension raw-batch path · *under review*
+- **[facebookresearch/faiss#5312](https://github.com/facebookresearch/faiss/pull/5312)** — harden the OnDiskInvertedLists mmap reader against malformed list sizes · *under review*
+- **[facebookresearch/faiss#5313](https://github.com/facebookresearch/faiss/pull/5313)** — guard against integer overflow in index-deserialization size checks · *under review*
+- **[aws/sagemaker-python-sdk#5947](https://github.com/aws/sagemaker-python-sdk/pull/5947)** — use the caller's extract_path (not CWD) as the tar-extraction containment base · *under review*
+- **[run-llama/llama_index#21962](https://github.com/run-llama/llama_index/pull/21962)** — fix SQL injection in the MariaDB / DB2 vector stores (sibling of CVE-2025-1793) · *under review*
+- **[feast-dev/feast#6512](https://github.com/feast-dev/feast/pull/6512)** — warn operators when the registry server starts with authentication disabled · *under review*
+
+Method: a cross-model find → verify → fix loop (Claude + Codex), every finding adversarially
+checked before a PR is opened — no exploit code, regression test where the project's suite allows.
+
+---
+
 ## 🧠 Background
 
 - 🎓 Tokyo Institute of Technology — Robotics (graduated top of class)
