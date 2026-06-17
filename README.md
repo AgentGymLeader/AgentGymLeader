@@ -28,10 +28,10 @@ More on the thesis — *Separation of Powers as Governance Architecture* — at 
 
 Shipping merged code into AI-infra OSS, and contributing to the semantic-convention work that defines how agent runtimes are described — kept implementation-neutral, with producer-owned context left out of scope:
 
+- **[Microsoft Agent Governance Toolkit (AGT)](https://github.com/microsoft/agent-governance-toolkit)** — [merged: indirect / tool-output prompt-injection rules](https://github.com/microsoft/agent-governance-toolkit/pull/3069) in `CONTEXT_RULES` (Rust; OWASP LLM01 / MITRE ATLAS), plus telemetry / observability design input
 - **[litellm](https://github.com/BerriAI/litellm)** (LLM gateway, ~50k★) — [merged PRs »](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AAgentGymLeader+is%3Amerged)
 - **OpenTelemetry GenAI semconv** — design input on agent telemetry: decision / outcome attributes and opaque, payload-free governance references for agent decision points; an *acting-vs-target* agent framing for multi-agent traces; runtime threat-signal correlation
 - **Agent execution-record proposals** — review input on keeping the normative contract in the spec itself, rather than in any single reference implementation, so independent implementations interoperate on equal footing
-- **Microsoft Agent Governance Toolkit (AGT)** — telemetry and observability design discussions
 - **[`otel-agent-evidence-sample`](https://github.com/AgentGymLeader/otel-agent-evidence-sample)** — a small reference for the opaque `correlation_id` evidence-linking pattern (MIT)
 
 → *[All merged contributions, always current »](https://github.com/search?q=is%3Apr+author%3AAgentGymLeader+is%3Amerged&type=pullrequests)*
@@ -45,7 +45,7 @@ AI-assisted discovery, human-verified before submission. Status shown honestly; 
 under maintainer review.
 
 - **[mongodb/mongo-python-driver#2872](https://github.com/mongodb/mongo-python-driver/pull/2872)** — bounds check for an out-of-range embedded-document length in the BSON C-extension raw-batch path · *under review*
-- **[facebookresearch/faiss#5312](https://github.com/facebookresearch/faiss/pull/5312)** — harden the OnDiskInvertedLists mmap reader against malformed list sizes · *under review*
+- **[facebookresearch/faiss#5312](https://github.com/facebookresearch/faiss/pull/5312)** — harden the OnDiskInvertedLists mmap reader against malformed list sizes · *landed — imported via Meta's internal sync (codesync)*
 - **[facebookresearch/faiss#5313](https://github.com/facebookresearch/faiss/pull/5313)** — guard against integer overflow in index-deserialization size checks · *under review*
 - **[aws/sagemaker-python-sdk#5947](https://github.com/aws/sagemaker-python-sdk/pull/5947)** — use the caller's extract_path (not CWD) as the tar-extraction containment base · *under review*
 - **[run-llama/llama_index#21962](https://github.com/run-llama/llama_index/pull/21962)** — fix SQL injection in the MariaDB / DB2 vector stores (sibling of CVE-2025-1793) · *under review*
