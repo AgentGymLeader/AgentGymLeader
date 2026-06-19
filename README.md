@@ -1,4 +1,4 @@
-# Hey, I'm FugoP 👋
+# Hey, I'm AgentGymLeader 👋
 
 > Building **PENSO** — corporate governance, implemented for AI organizations.
 > [governances.ai](https://governances.ai)
