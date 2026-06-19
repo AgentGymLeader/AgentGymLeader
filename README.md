@@ -1,6 +1,6 @@
-# AgentGymLeader
+# AgentGymLeader 👋
 
-Half a joke, half the actual thesis.
+Hey, glad you wandered in. The handle's half a joke and half the actual thesis.
 
 In that world, a Gym Leader isn't really a gatekeeper. The role looks like "test the challenger," but the point is the opposite: you push a team to get strong and resourceful enough to go further, you recognize them when their setup genuinely holds up, and a good Leader raises the level of the whole region, not just the few who walk in.
 
