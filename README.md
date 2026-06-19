@@ -2,7 +2,7 @@
 
 Hey, glad you wandered in. The handle's half a joke and half the actual thesis.
 
-In that world, a Gym Leader isn't really a gatekeeper. The role looks like "test the challenger," but the point is the opposite: you push a team to get strong and resourceful enough to go further, you recognize them when their setup genuinely holds up, and a good Leader raises the level of the whole region, not just the few who walk in.
+In that world, a Gym Leader is the boss at the end of the gym. But here's the twist — they're on your side: the whole job is to push a team until it's strong and resourceful enough to get past you, to recognize them when their setup genuinely holds up, and to raise the level of the whole region, not just the few who walk in.
 
 My type is AI agent governance. Same shape of work: take a team of agents (Claude, Codex, Gemini), push them until they're trustworthy enough to actually delegate to, and treat "it holds up" as something you build toward — for everyone, not just yourself.
 
