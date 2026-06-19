@@ -1,40 +1,34 @@
-# Hey, I'm AgentGymLeader 👋
+# AgentGymLeader
 
-> Building **PENSO** — corporate governance, implemented for AI organizations.
-> [governances.ai](https://governances.ai)
+Half a joke, half the actual thesis.
 
-I design and operate **AI agent organizations**: multi-agent systems where Claude, Codex, and Gemini work as a governed team — not as individual tools.
+In that world, a Gym Leader isn't really a gatekeeper. The role looks like "test the challenger," but the point is the opposite: you push a team to get strong and resourceful enough to go further, you recognize them when their setup genuinely holds up, and a good Leader raises the level of the whole region, not just the few who walk in.
 
-My focus is **AI management**, not prompt engineering:
-- Prompt engineering → how to talk to an AI
-- AI management → how to build systems where AI judgment can be trusted, reviewed, and gradually delegated under human oversight
+My type is AI agent governance. Same shape of work: take a team of agents (Claude, Codex, Gemini), push them until they're trustworthy enough to actually delegate to, and treat "it holds up" as something you build toward — for everyone, not just yourself.
 
----
+So most of the work happens in the open, lifting the tools people already build on:
 
-## 🔭 What I'm building
-
-**PENSO** — an operating system for AI organizations, built on one idea: *governance by structure*. Oversight, separation of duties, and accountability are implemented as architectural constraints the system cannot bypass — not as policy PDFs or dashboards bolted on afterwards.
-
-- **Agent runtime governance** — permission models, execution boundaries, and decision records for agentic systems
-- **Separation of execution and audit** — the component that reviews an action is independent of the one that performs it
-- **Human-reviewed AI** — keeping humans meaningfully in the loop without giving up the speed
-- **Multi-agent orchestration** — routing, role separation, and quality gates across Claude / Codex / Gemini
-
-More on the thesis — *Separation of Powers as Governance Architecture* — at [governances.ai](https://governances.ai).
-
----
-
-## 🤝 Open source & standards
-
-Shipping merged code into AI-infra OSS, and contributing to the semantic-convention work that defines how agent runtimes are described — kept implementation-neutral, with producer-owned context left out of scope:
-
-- **[Microsoft Agent Governance Toolkit (AGT)](https://github.com/microsoft/agent-governance-toolkit)** — [merged: indirect / tool-output prompt-injection rules](https://github.com/microsoft/agent-governance-toolkit/pull/3069) in `CONTEXT_RULES` (Rust; OWASP LLM01 / MITRE ATLAS), plus telemetry / observability design input
-- **[litellm](https://github.com/BerriAI/litellm)** (LLM gateway, ~50k★) — [merged PRs »](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AAgentGymLeader+is%3Amerged)
-- **OpenTelemetry GenAI** — [merged code into the Python instrumentation](https://github.com/open-telemetry/opentelemetry-python-genai/pull/111) (provider-attribute migration to `gen_ai.provider.name`, replacing the deprecated `gen_ai.system`), plus design input on agent telemetry: decision / outcome attributes and opaque, payload-free governance references for agent decision points; an *acting-vs-target* agent framing for multi-agent traces; runtime threat-signal correlation
-- **Agent execution-record proposals** — review input on keeping the normative contract in the spec itself, rather than in any single reference implementation, so independent implementations interoperate on equal footing
-- **[`otel-agent-evidence-sample`](https://github.com/AgentGymLeader/otel-agent-evidence-sample)** — a small reference for the opaque `correlation_id` evidence-linking pattern (MIT)
+- **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** — [merged prompt-injection defense rules](https://github.com/microsoft/agent-governance-toolkit/pull/3069)
+- **[Meta Faiss](https://github.com/facebookresearch/faiss)** — [merged search-index hardening](https://github.com/facebookresearch/faiss/pull/5312)
+- **[OpenTelemetry GenAI](https://github.com/open-telemetry/opentelemetry-python-genai)** — [merged vendor-neutral agent telemetry](https://github.com/open-telemetry/opentelemetry-python-genai/pull/111)
 
 → *[All merged contributions, always current »](https://github.com/search?q=is%3Apr+author%3AAgentGymLeader+is%3Amerged&type=pullrequests)*
+
+---
+
+## 🔭 The through-line
+
+It all points at one project: **PENSO**, an operating system for AI organizations built on *governance by structure* — permission models, separation of execution and audit, and decision records implemented as constraints the system can't bypass, not policy PDFs bolted on afterward. Same idea as the gym: a team earns real autonomy *because* the structure around it is sound. More at [governances.ai](https://governances.ai).
+
+---
+
+## 🤝 More open source & standards
+
+Beyond the headline merges, I work the semantic-convention layer that defines how agent runtimes get described — kept implementation-neutral, with producer-owned context left out of scope:
+
+- **[litellm](https://github.com/BerriAI/litellm)** (LLM gateway, ~50k★) — [merged PRs »](https://github.com/BerriAI/litellm/pulls?q=is%3Apr+author%3AAgentGymLeader+is%3Amerged)
+- **Agent execution-record proposals** — review input on keeping the normative contract in the spec itself, rather than in any single reference implementation, so independent implementations interoperate on equal footing
+- **[`otel-agent-evidence-sample`](https://github.com/AgentGymLeader/otel-agent-evidence-sample)** — a small reference for the opaque `correlation_id` evidence-linking pattern (MIT)
 
 ---
 
@@ -45,7 +39,6 @@ AI-assisted discovery, human-verified before submission. Status shown honestly; 
 under maintainer review.
 
 - **[MongoDB BSON driver](https://github.com/mongodb/mongo-python-driver/pull/2872)** — bounds check for an out-of-range embedded-document length in the BSON C-extension raw-batch path · *under review*
-- **[Faiss](https://github.com/facebookresearch/faiss/pull/5312)** — harden the OnDiskInvertedLists mmap reader against malformed list sizes · *landed — imported via Meta's internal sync (codesync)*
 - **[Faiss](https://github.com/facebookresearch/faiss/pull/5313)** — guard against integer overflow in index-deserialization size checks · *under review*
 - **[AWS SageMaker Python SDK](https://github.com/aws/sagemaker-python-sdk/pull/5947)** — use the caller's extract_path (not CWD) as the tar-extraction containment base · *under review*
 - **[LlamaIndex](https://github.com/run-llama/llama_index/pull/21962)** — fix SQL injection in the MariaDB / DB2 vector stores (sibling of CVE-2025-1793) · *under review*
