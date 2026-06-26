@@ -71,8 +71,6 @@ checked before a PR is opened — no exploit code, regression test where the pro
 
 ---
 
-## 💬 Collaboration
+## 💬 Get in touch
 
-Interested in **agent governance**, **human-AI decision systems**, or **AI org design**? Open an issue in this repository to start a conversation.
-
-I don't publish a public email address on GitHub.
+Interested in **agent governance**, **AI-safety evals**, **human-AI decision systems**, or **AI org design**? I'm happy to connect on [LinkedIn](https://www.linkedin.com/in/tatsuhiko-nagoshi/). For anything company-related, [governances.ai](https://governances.ai); for OSS or technical collaboration, open an issue on this repo.
