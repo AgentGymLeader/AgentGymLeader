@@ -10,7 +10,7 @@ So most of the work happens in the open, lifting the tools people already build 
 
 - **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** — [merged prompt-injection defense rules](https://github.com/microsoft/agent-governance-toolkit/pull/3069)
 - **[UK AI Safety Institute · Inspect](https://github.com/UKGovernmentBEIS/inspect_ai)** — [merged a concurrent subset-reader for eval logs](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4183) (cuts partial reads from seconds to milliseconds)
-- **[OpenTelemetry GenAI](https://github.com/open-telemetry/opentelemetry-python-genai)** — [merged vendor-neutral agent telemetry](https://github.com/open-telemetry/opentelemetry-python-genai/pull/111)
+- **[OpenTelemetry GenAI](https://github.com/open-telemetry/opentelemetry-python-genai)** — [merged vendor-neutral agent telemetry](https://github.com/open-telemetry/opentelemetry-python-genai/pull/111), shipped in the project's first release (`1.0b0`)
 - **[Meta Faiss](https://github.com/facebookresearch/faiss)** — [merged search-index hardening](https://github.com/facebookresearch/faiss/pull/5312)
 
 → *[All merged contributions, always current »](https://github.com/search?q=is%3Apr+author%3AAgentGymLeader+is%3Amerged&type=pullrequests)*
