@@ -12,6 +12,7 @@ So most of the work happens in the open, lifting the tools people already build 
 - **[UK AI Safety Institute · Inspect](https://github.com/UKGovernmentBEIS/inspect_ai)** — [merged a concurrent subset-reader for eval logs](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4183) (cuts partial reads from seconds to milliseconds)
 - **[OpenTelemetry GenAI](https://github.com/open-telemetry/opentelemetry-python-genai)** — [merged vendor-neutral agent telemetry](https://github.com/open-telemetry/opentelemetry-python-genai/pull/111), shipped in the project's first release (`1.0b0`)
 - **[Meta Faiss](https://github.com/facebookresearch/faiss)** — [merged search-index hardening](https://github.com/facebookresearch/faiss/pull/5312)
+- **[MongoDB](https://github.com/mongodb/mongo-python-driver)** — [merged a bounds check in the BSON C extension](https://github.com/mongodb/mongo-python-driver/pull/2872) (the official Python driver)
 
 → *[All merged contributions, always current »](https://github.com/search?q=is%3Apr+author%3AAgentGymLeader+is%3Amerged&type=pullrequests)*
 
@@ -39,7 +40,7 @@ Memory-safety, injection, and trust-boundary fixes proposed into ML / data-infra
 AI-assisted discovery, human-verified before submission. Status shown honestly; most are
 under maintainer review.
 
-- **[MongoDB BSON driver](https://github.com/mongodb/mongo-python-driver/pull/2872)** — bounds check for an out-of-range embedded-document length in the BSON C-extension raw-batch path · *under review*
+- **[MongoDB BSON driver](https://github.com/mongodb/mongo-python-driver/pull/2872)** — bounds check for an out-of-range embedded-document length in the BSON C-extension raw-batch path · **merged**
 - **[Faiss](https://github.com/facebookresearch/faiss/pull/5313)** — guard against integer overflow in index-deserialization size checks · *under review*
 - **[AWS SageMaker Python SDK](https://github.com/aws/sagemaker-python-sdk/pull/5947)** — use the caller's extract_path (not CWD) as the tar-extraction containment base · *under review*
 - **[LlamaIndex](https://github.com/run-llama/llama_index/pull/21962)** — fix SQL injection in the MariaDB / DB2 vector stores (sibling of CVE-2025-1793) · *under review*
